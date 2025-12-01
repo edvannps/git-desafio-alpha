@@ -1,4 +1,3 @@
-/* Melhores Práticas: Reset Básico e Box Model */
 *, *::before, *::after {
     box-sizing: border-box; /* Facilita o layout responsivo */
     margin: 0;
