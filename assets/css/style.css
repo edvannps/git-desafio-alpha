@@ -1,0 +1,100 @@
+/* Melhores Práticas: Reset Básico e Box Model */
+*, *::before, *::after {
+    box-sizing: border-box; /* Facilita o layout responsivo */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de Tipografia e Corpo */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6; /* Fundo suave */
+}
+
+/* Layout Principal e Responsividade */
+main {
+    max-width: 900px; /* Limita a largura para melhor legibilidade em telas grandes */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+    border-radius: 8px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #007bff; /* Cor primária */
+}
+
+header h1 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Estilização do Conteúdo (Imitando o Markdown) */
+.markdown-body h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.markdown-body h3 {
+    color: #28a745; /* Cor secundária */
+    margin-top: 20px;
+}
+
+.markdown-body ul {
+    list-style-type: disc;
+    margin-left: 25px;
+    padding-left: 0;
+}
+
+.markdown-body li {
+    margin-bottom: 8px;
+}
+
+/* Tabela de Melhores Práticas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.9em;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #6c757d;
+}
+
+/* Responsividade: Media Queries para Dispositivos Menores */
+@media (max-width: 768px) {
+    main {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+}
