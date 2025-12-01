@@ -1,3 +1,8 @@
+---
+layout: default
+title: Landing Page Técnica
+---
+
 # 🌐 Conceitos Fundamentais de Redes e Internet
 
 ## 💡 Introdução Técnica
